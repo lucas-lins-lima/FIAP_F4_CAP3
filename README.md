@@ -60,7 +60,7 @@ Para visualizar e executar este projeto, siga as instruções abaixo:
 - Jupyter Notebook ou ambiente compatível
 - Instale as bibliotecas necessárias
 
-**Passo a passo**
+**Passo a passo para verificar a execução do projeto**
 1. Clone o repositório ou baixe o arquivo .zip pelo próprio GitHub e extraia no seu computador.
 Comando: git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 2. Acesse a pasta dos scripts
@@ -69,7 +69,7 @@ Comando: cd NOME_DO_REPOSITORIO/scripts
 Comando: jupyter notebook
 4. Execute as células do notebook em sequência para acompanhar todas as análises, resultados e gráficos gerados.
 
-**Visualização online**
+**Passo a passo para a visualização online**
 - Acesse o arquivo scripts/Resolucao.ipynb no GitHub
 - Copie a URL direta do arquivo (.ipynb)
 - Acesse nbviewer.jupyter.org
