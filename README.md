@@ -70,10 +70,10 @@ Comando: jupyter notebook
 4. Execute as células do notebook em sequência para acompanhar todas as análises, resultados e gráficos gerados.
 
 **Passo a passo para a visualização online**
-- Acesse o arquivo scripts/Resolucao.ipynb no GitHub
-- Copie a URL direta do arquivo (.ipynb)
-- Acesse nbviewer.jupyter.org
-- Cole o link copiado no nbviewer
+1. Acesse o arquivo scripts/Resolucao.ipynb no GitHub
+2. Copie a URL direta do arquivo (.ipynb)
+3. Acesse nbviewer.jupyter.org
+4. Cole o link copiado no nbviewer
 
 ## 🗃 Histórico de lançamentos
 
