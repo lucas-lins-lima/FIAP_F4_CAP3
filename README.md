@@ -24,7 +24,13 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+Este projeto tem como objetivo aplicar conceitos de análise de dados, estatística e aprendizado de máquina à recomendação de culturas agrícolas, a partir de dados relacionados ao solo e clima. Utilizando uma base de dados com variáveis como concentração de nutrientes (N, P, K), temperatura, umidade, pH e precipitação, o grupo realizou etapas completas de tratamento, visualização e modelagem dos dados.
+
+Foram exploradas técnicas de análise descritiva e preditiva, com destaque para a análise exploratória dos dados (EDA), construção de visualizações gráficas para identificar padrões e relações entre variáveis, e desenvolvimento de diferentes modelos de machine learning (Decision Tree, Random Forest, KNN, SVM e Regressão Logística) para prever a cultura agrícola mais adequada de acordo com as condições apresentadas.
+
+O notebook principal, presente na pasta scripts/Resolucao.ipynb, documenta todo o processo de análise, desde a preparação e compreensão dos dados até a avaliação dos modelos preditivos e o detalhamento de suas recomendações para diferentes cenários agrícolas.
+
+Este trabalho integra teoria e prática de Data Science e agronomia, ilustrando o impacto de abordagens baseadas em dados para o suporte à tomada de decisão no campo.
 
 
 ## 📁 Estrutura de pastas
@@ -47,8 +53,26 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+Para visualizar e executar este projeto, siga as instruções abaixo:
 
+**Pré-requisitos**
+- Jupyter Notebook ou ambiente compatível
+- Instale as bibliotecas necessárias
+
+**Passo a passo**
+1. Clone o repositório ou baixe o arquivo .zip pelo próprio GitHub e extraia no seu computador.
+Comando: git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+2. Acesse a pasta dos scripts
+Comando: cd NOME_DO_REPOSITORIO/scripts
+3. Inicie o Jupyter Notebook e abra o arquivo Resolucao.ipynb pelo menu do Jupyter
+Comando: jupyter notebook
+4. Execute as células do notebook em sequência para acompanhar todas as análises, resultados e gráficos gerados.
+
+**Visualização online**
+- Acesse o arquivo scripts/Resolucao.ipynb no GitHub
+- Copie a URL direta do arquivo (.ipynb)
+- Acesse nbviewer.jupyter.org
+- Cole o link copiado no nbviewer
 
 ## 🗃 Histórico de lançamentos
 
