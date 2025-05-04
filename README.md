@@ -29,7 +29,7 @@ Este projeto tem como objetivo aplicar conceitos de análise de dados, estatíst
 
 Foram exploradas técnicas de análise descritiva e preditiva, com destaque para a análise exploratória dos dados (EDA), construção de visualizações gráficas para identificar padrões e relações entre variáveis, e desenvolvimento de diferentes modelos de machine learning (Decision Tree, Random Forest, KNN, SVM e Regressão Logística) para prever a cultura agrícola mais adequada de acordo com as condições apresentadas.
 
-O notebook principal, presente na pasta scripts/Resolucao.ipynb, documenta todo o processo de análise, desde a preparação e compreensão dos dados até a avaliação dos modelos preditivos e o detalhamento de suas recomendações para diferentes cenários agrícolas.
+A entrega consiste em um Jupyter Notebook estruturado e comentado, que apresenta desde o carregamento da base de dados até a interpretação dos resultados.
 
 Este trabalho integra teoria e prática de Data Science e agronomia, ilustrando o impacto de abordagens baseadas em dados para o suporte à tomada de decisão no campo.
 
@@ -57,28 +57,34 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 Para visualizar e executar este projeto, siga as instruções abaixo:
 
 **Pré-requisitos**
-- Jupyter Notebook ou ambiente compatível
-- Instale as bibliotecas necessárias
+- Python 3.10+
+- Jupyter Notebook ou ambiente compatível (instalado via pip install notebook ou por ferramentas como Anaconda)
+- Instale as bibliotecas necessárias (pandas, numpy, matplotlib, seaborn, scikit-learn)
 
 **Passo a passo para verificar a execução do projeto**
 1. Clone o repositório ou baixe o arquivo .zip pelo próprio GitHub e extraia no seu computador.
-Comando: git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+```bash
+git clone https://github.com/lucas-lins-lima/FIAP_F3_CAP14.git
+```
 2. Acesse a pasta dos scripts
-Comando: cd NOME_DO_REPOSITORIO/scripts
-3. Inicie o Jupyter Notebook e abra o arquivo Resolucao.ipynb pelo menu do Jupyter
-Comando: jupyter notebook
-4. Execute as células do notebook em sequência para acompanhar todas as análises, resultados e gráficos gerados.
+```bash
+cd FIAP_F3_CAP14
+```
+3. Inicie o Jupyter Notebook
+```bash
+jupyter notebook
+```
+4. Abre a e execute as células do notebook em sequência para acompanhar todas as análises, resultados e gráficos gerados.
 
 **Passo a passo para a visualização online**
-1. Acesse o arquivo scripts/Resolucao.ipynb no GitHub
-2. Copie a URL direta do arquivo (.ipynb)
-3. Acesse nbviewer.jupyter.org
-4. Cole o link copiado no nbviewer
+1. Acesse: nbviewer.jupyter.org 
+2. Cole o link direto do notebook document/Resolucao.ipynb hospedado no GitHub 
+3. Visualize o conteúdo renderizado diretamente no navegador.
 
 ## 🗃 Histórico de lançamentos
 
 * 0.1.0 - 01/05/2025
-    * 
+    * Versão final da atividade entregue, com análise exploratória, modelagem preditiva e visualizações completas
 
 ## 📋 Licença
 
