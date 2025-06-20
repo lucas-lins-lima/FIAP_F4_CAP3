@@ -96,17 +96,25 @@ O projeto compara 5 algoritmos de classificação diferentes:
 
 Algoritmo | Tipo | Principais Características
 🔍 K-Nearest Neighbors (KNN) | Instance-based | Simples, baseado em proximidade
+
 ⚡ Support Vector Machine (SVM) | Kernel-based | Eficaz em alta dimensionalidade
+
 🌳 Random Forest | Ensemble | Robusto, fornece importância das features
+
 📊 Naive Bayes | Probabilístico | Rápido, assume independência das features
+
 📈 Logistic Regression | Linear | Interpretável, fornece probabilidades
 
 ## 📊 Métricas de Performance:
 
 Métrica | Valor | Interpretação
+
 Acurácia | >90% | ✅ Objetivo alcançado
+
 Precisão | >90% | ✅ Poucos falsos positivos
+
 Recall | >90% | ✅ Poucos falsos negativos
+
 F1-Score | >90% | ✅ Métricas balanceadas
 
 ## 🎯 Características Mais Importantes:
