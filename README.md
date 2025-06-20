@@ -140,7 +140,7 @@ Para visualizar e executar este projeto, siga as instruções abaixo:
 **Pré-requisitos**
 - Python 3.10+
 - Jupyter Notebook ou ambiente compatível (instalado via pip install notebook ou por ferramentas como Anaconda)
-- Instale as bibliotecas necessárias (pandas, numpy, matplotlib, seaborn, scikit-learn)
+- Instale as bibliotecas necessárias (pandas numpy scikit-learn matplotlib seaborn)
 
 **Passo a passo para verificar a execução do projeto**
 1. Clone o repositório ou baixe o arquivo .zip pelo próprio GitHub e extraia no seu computador.
