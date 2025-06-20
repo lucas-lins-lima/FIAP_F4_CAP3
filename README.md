@@ -7,13 +7,11 @@
 <br>
 
 # Nome do projeto
-Cap 14 - A primeira técnica de aprendizado de máquina - Ciencia de dados no Agro
+Cap 3 - Classificação Automática de Variedades de Trigo
 
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/in/anacornachi/">Ana Cornachi</a>
-- <a href="https://www.linkedin.com/in/carlamaximo/">Carla Máximo</a>
 - <a href="https://www.linkedin.com/in/lucas-lins-lima/">Lucas Lins</a> 
 
 ## 👩‍🏫 Professores:
@@ -64,11 +62,11 @@ Para visualizar e executar este projeto, siga as instruções abaixo:
 **Passo a passo para verificar a execução do projeto**
 1. Clone o repositório ou baixe o arquivo .zip pelo próprio GitHub e extraia no seu computador.
 ```bash
-git clone https://github.com/lucas-lins-lima/FIAP_F3_CAP14.git
+git clone https://github.com/lucas-lins-lima/FIAP_F4_CAP3.git
 ```
 2. Acesse a pasta dos scripts
 ```bash
-cd FIAP_F3_CAP14
+cd FIAP_F4_CAP3
 ```
 3. Inicie o Jupyter Notebook
 ```bash
@@ -83,12 +81,8 @@ jupyter notebook
 
 ## 🗃 Histórico de lançamentos
 
-* 0.1.0 - 01/05/2025
-    * Versão final da atividade entregue, com análise exploratória, modelagem preditiva e visualizações completas
-* 0.2.0 - 04/05/2025
-    * Atualização do readme e do script
-* 0.3.0 - 05/05/2025
-    * Atualização do readme
+* 0.1.0 - 20/06/2025
+    * Preparação e conclusão da atividade
         
 ## 📋 Licença
 
