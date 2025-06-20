@@ -23,14 +23,97 @@ Cap 3 - Classificação Automática de Variedades de Trigo
 
 ## 📜 Descrição
 
-Este projeto tem como objetivo aplicar conceitos de análise de dados, estatística e aprendizado de máquina à recomendação de culturas agrícolas, a partir de dados relacionados ao solo e clima. Utilizando uma base de dados com variáveis como concentração de nutrientes (N, P, K), temperatura, umidade, pH e precipitação, o grupo realizou etapas completas de tratamento, visualização e modelagem dos dados.
+Este projeto implementa um sistema inteligente de classificação automática de grãos de trigo utilizando técnicas de Machine Learning. O objetivo é automatizar o processo tradicionalmente manual de classificação de grãos em cooperativas agrícolas, aumentando a eficiência, precisão e consistência das análises.
 
-Foram exploradas técnicas de análise descritiva e preditiva, com destaque para a análise exploratória dos dados (EDA), construção de visualizações gráficas para identificar padrões e relações entre variáveis, e desenvolvimento de diferentes modelos de machine learning (Decision Tree, Random Forest, KNN, SVM e Regressão Logística) para prever a cultura agrícola mais adequada de acordo com as condições apresentadas.
+O projeto foi desenvolvido seguindo rigorosamente a metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining), garantindo uma abordagem sistemática e profissional para o desenvolvimento de modelos de aprendizado de máquina.
 
-A entrega consiste em um Jupyter Notebook estruturado e comentado, que apresenta desde o carregamento da base de dados até a interpretação dos resultados.
+## 🎯 Contexto e Motivação
 
-Este trabalho integra teoria e prática de Data Science e agronomia, ilustrando o impacto de abordagens baseadas em dados para o suporte à tomada de decisão no campo.
+**Problema Identificado:**
+- 🔍 Classificação manual: Processo demorado e sujeito a erros humanos
+- ⏱️ Ineficiência: Reduz a velocidade de processamento nas cooperativas
+- 📊 Inconsistência: Variabilidade entre diferentes especialistas
+- 💰 Custo elevado: Necessidade de especialistas para análise manual
 
+**Solução Proposta:**
+- 🤖 Automação completa do processo de classificação
+- 🎯 Alta precisão na identificação de variedades de trigo
+- ⚡ Processamento rápido de grandes volumes de grãos
+- 📈 Escalabilidade para diferentes cooperativas e regiões
+
+## 🔬 Metodologia CRISP-DM
+O projeto segue as 6 fases da metodologia CRISP-DM:
+
+**1. 📊 Business Understanding (Entendimento do Negócio)**
+- Definição clara dos objetivos de negócio
+- Identificação dos critérios de sucesso
+- Análise dos requisitos e restrições
+
+**2. 📈 Data Understanding (Entendimento dos Dados)**
+- Coleta e exploração do dataset Seeds
+- Análise estatística descritiva
+- Identificação de padrões e correlações
+
+**3. 🔧 Data Preparation (Preparação dos Dados)**
+- Limpeza e tratamento de dados
+- Normalização e padronização
+- Divisão estratificada treino/teste
+
+**4. 🤖 Modeling (Modelagem)**
+- Implementação de 5 algoritmos diferentes
+- Treinamento e validação cruzada
+- Comparação de performance
+
+**5. ⚡ Evaluation (Avaliação)**
+- Otimização de hiperparâmetros
+- Análise detalhada de métricas
+- Interpretação dos resultados
+
+**6. 🚀 Deployment (Implementação)**
+- Documentação completa
+- Recomendações para produção
+- Plano de monitoramento
+
+## 📊 Dataset Utilizado
+
+**Seeds Dataset - UCI Machine Learning Repository**
+- 📦 Total de amostras: 210 grãos de trigo
+- 🏷️ Classes: 3 variedades (Kama, Rosa, Canadian)
+- 📏 Características: 7 medições geométricas por grão
+- 🎯 Distribuição: Balanceada entre as classes
+
+**Características Analisadas:**
+1. Área: Medida da área total do grão
+2. Perímetro: Comprimento do contorno do grão
+3. Compacidade: Regularidade da forma (4πA/P²)
+4. Comprimento do Núcleo: Eixo principal da elipse equivalente
+5. Largura do Núcleo: Eixo secundário da elipse
+6. Coeficiente de Assimetria: Medida de irregularidade
+7. Comprimento do Sulco: Característica única do grão
+
+## 🤖 Algoritmos Implementados
+O projeto compara 5 algoritmos de classificação diferentes:
+
+Algoritmo | Tipo | Principais Características
+🔍 K-Nearest Neighbors (KNN) | Instance-based | Simples, baseado em proximidade
+⚡ Support Vector Machine (SVM) | Kernel-based | Eficaz em alta dimensionalidade
+🌳 Random Forest | Ensemble | Robusto, fornece importância das features
+📊 Naive Bayes | Probabilístico | Rápido, assume independência das features
+📈 Logistic Regression | Linear | Interpretável, fornece probabilidades
+
+## 📊 Métricas de Performance:
+
+Métrica | Valor | Interpretação
+Acurácia | >90% | ✅ Objetivo alcançado
+Precisão | >90% | ✅ Poucos falsos positivos
+Recall | >90% | ✅ Poucos falsos negativos
+F1-Score | >90% | ✅ Métricas balanceadas
+
+## 🎯 Características Mais Importantes:
+
+1. Área do grão - Principal diferenciador
+2. Perímetro - Correlacionado com o tamanho
+3. Compacidade - Indica formato específico
 
 ## 📁 Estrutura de pastas
 
