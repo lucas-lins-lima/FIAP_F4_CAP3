@@ -1,0 +1,6 @@
+Modelo,Original,Otimizado,Melhoria,Melhoria (%)
+KNN,0.873,0.8889,0.0159,1.8182
+SVM,0.873,0.8889,0.0159,1.8182
+Random Forest,0.9206,0.873,-0.0476,-5.1724
+Naive Bayes,0.8254,0.8254,0.0,0.0
+Logistic Regression,0.8571,0.8889,0.0317,3.7037
